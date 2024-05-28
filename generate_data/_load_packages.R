@@ -1,0 +1,15 @@
+
+#Load packages
+library(doParallel)
+library(data.table)
+library(dplyr)
+library(RODBC)
+library(dtplyr)
+library(tidyverse)
+library(lfe)
+library(stargazer)
+library(sandwich)
+library(modelsummary) 
+library(broom)
+library(foreach)
+library(fixest)

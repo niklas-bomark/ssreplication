@@ -1,0 +1,60 @@
+\begingroup
+\centering
+\begin{tabular}{lcccccccc}
+   \tabularnewline \multicolumn{9}{c}{\textit{DV: Residual Income Dispersion}} \\ \midrule \midrule
+   Model:                                                & (1)              & (2)             & (3)              & (4)              & (5)              & (6)              & (7)              & (8)\\  
+   \midrule
+   \emph{Variables}\\
+   Industry employment in township                       & -0.001           & -0.001          & -0.001           & -0.002           & -0.001           & -0.001           & 0.000            & -0.001\\   
+                                                         & (0.001)          & (0.001)         & (0.001)          & (0.001)          & (0.000)          & (0.000)          & (0.000)          & (0.000)\\   
+   Total N firms in township (10-3)                      & 2.240$^{**}$     & 2.216$^{**}$    & 2.324$^{**}$     & 0.456            & 0.357            & 0.261            & 0.759$^{***}$    & 0.233\\   
+                                                         & (0.772)          & (0.773)         & (0.799)          & (0.273)          & (0.196)          & (0.201)          & (0.188)          & (0.199)\\   
+\hdashline % Dotted line
+\\[0.1ex] % Add space of 1ex between rows
+\emph{H5} \\ 
+   Ratio of foreign owned firms in industry-township     & -136.320$^{***}$ &                 & -133.421$^{***}$ & -137.299$^{***}$ & -129.180$^{***}$ & -129.527$^{***}$ & -130.392$^{***}$ & -130.028$^{***}$\\   
+                                                         & (12.247)         &                 & (12.194)         & (12.354)         & (12.402)         & (12.446)         & (12.355)         & (12.407)\\   
+   Ratio of non-profit making firms in industry-township &                  & 219.091$^{***}$ & 215.207$^{***}$  & 222.485$^{***}$  & 221.779$^{***}$  & 223.007$^{***}$  & 219.567$^{***}$  & 221.849$^{***}$\\   
+                                                         &                  & (36.408)        & (36.385)         & (34.616)         & (34.696)         & (34.538)         & (34.685)         & (34.540)\\   
+\hdashline % Dotted line
+\\[0.1ex] % Add space of 1ex between rows
+\emph{H1} \\ 
+   Single industry employer                              &                  &                 &                  & -82.263$^{***}$  & -92.724$^{***}$  & -93.250$^{***}$  & -79.555$^{***}$  & -86.602$^{***}$\\   
+                                                         &                  &                 &                  & (8.502)          & (8.879)          & (8.619)          & (9.066)          & (8.704)\\   
+   Log N industry firms in township                      &                  &                 &                  & 13.430$^{***}$   & 18.218$^{***}$   & 17.037$^{***}$   & 55.401$^{***}$   & 58.558$^{***}$\\   
+                                                         &                  &                 &                  & (2.190)          & (3.608)          & (2.873)          & (10.154)         & (15.937)\\   
+\hdashline % Dotted line
+\\[0.1ex] % Add space of 1ex between rows
+\emph{H2} \\ 
+   Standard deviation of employer sizes                  &                  &                 &                  &                  & -0.238$^{***}$   & -0.239$^{***}$   & -0.242$^{***}$   & -0.240$^{***}$\\   
+                                                         &                  &                 &                  &                  & (0.029)          & (0.029)          & (0.029)          & (0.029)\\   
+   N industries in township                              &                  &                 &                  &                  & -0.788           &                  & 0.465            &   \\   
+                                                         &                  &                 &                  &                  & (0.679)          &                  & (0.886)          &   \\   
+   Entropy of industry shares                            &                  &                 &                  &                  &                  & -14.783          &                  & 7.286\\   
+                                                         &                  &                 &                  &                  &                  & (9.813)          &                  & (15.362)\\   
+\hdashline % Dotted line
+\\[0.1ex] % Add space of 1ex between rows
+\emph{H3} \\ 
+   Log N firms X N industries                            &                  &                 &                  &                  &                  &                  & -0.919$^{***}$   &   \\   
+                                                         &                  &                 &                  &                  &                  &                  & (0.251)          &   \\   
+   Log N firms X entropy                                 &                  &                 &                  &                  &                  &                  &                  & -13.686$^{*}$\\   
+                                                         &                  &                 &                  &                  &                  &                  &                  & (5.262)\\   
+   \midrule
+   \emph{Fixed-effects}\\
+   Industry                                              & Yes              & Yes             & Yes              & Yes              & Yes              & Yes              & Yes              & Yes\\  
+   Year                                                  & Yes              & Yes             & Yes              & Yes              & Yes              & Yes              & Yes              & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   R$^2$                                                 & 0.261            & 0.262           & 0.265            & 0.275            & 0.280            & 0.280            & 0.281            & 0.280\\  
+   Within R$^2$                                          & 0.006            & 0.007           & 0.011            & 0.025            & 0.032            & 0.032            & 0.032            & 0.032\\  
+   Observations                                          & 75,656           & 75,656          & 75,656           & 75,656           & 75,656           & 75,656           & 75,656           & 75,656\\  
+   \midrule \midrule
+\multicolumn{9}{p{24cm}}{\emph{Notes:} The dependent variable is the log 
+    standard deviation of the residuals from the first-stage human capital equation 
+    regressions adjusted for sampling error, multiplied by 1,000. Standard errors 
+    are adjusted for clustering at the township level. Models include dummy variables 
+    for year and industry. Interaction effects are centered. Clustered (Township) 
+    standard-errors in parentheses.}\\
+\multicolumn{9}{l}{\emph{*** p$<$0.001, ** p$<$0.01, * p$<$0.05}} \\ 
+\end{tabular}
+\par\endgroup

@@ -1,0 +1,53 @@
+\begingroup
+\centering
+\begin{tabular}{lccccc}
+   \tabularnewline \multicolumn{6}{c}{\textit{DV: Residual Income Dispersion}} \\ \midrule \midrule
+   Model:                               & (1)             & (2)             & (3)             & (4)             & (5)\\  
+   \midrule
+   \emph{Variables}\\
+   Industry employment in township      & -0.003          & -0.002          & -0.002          & -0.001          & -0.001\\   
+                                        & (0.002)         & (0.001)         & (0.001)         & (0.001)         & (0.001)\\   
+   Total N firms in township (10-3)     & 0.108           & -0.178          & -0.360          & 0.322           & -0.367\\   
+                                        & (0.459)         & (0.329)         & (0.348)         & (0.332)         & (0.343)\\   
+\hdashline % Dotted line
+\\[0.1ex] % Add space of 1ex between rows
+\emph{H1} \\ 
+   Single industry employer             & -72.501$^{***}$ & -84.389$^{***}$ & -85.427$^{***}$ & -71.678$^{***}$ & -78.140$^{***}$\\   
+                                        & (14.664)        & (15.538)        & (15.205)        & (16.256)        & (15.311)\\   
+   Log N industry firms in township     & 14.132$^{***}$  & 21.484$^{***}$  & 18.759$^{***}$  & 57.620$^{***}$  & 60.607$^{*}$\\   
+                                        & (3.331)         & (5.381)         & (4.654)         & (13.732)        & (25.698)\\   
+\hdashline % Dotted line
+\\[0.1ex] % Add space of 1ex between rows
+\emph{H2} \\ 
+   Standard deviation of employer sizes &                 & -0.236$^{***}$  & -0.239$^{***}$  & -0.241$^{***}$  & -0.240$^{***}$\\   
+                                        &                 & (0.039)         & (0.039)         & (0.040)         & (0.039)\\   
+   N industries in township             &                 & -1.357          &                 & -0.041          &   \\   
+                                        &                 & (0.930)         &                 & (1.225)         &   \\   
+   Entropy of industry shares           &                 &                 & -18.514         &                 & 3.145\\   
+                                        &                 &                 & (14.144)        &                 & (25.043)\\   
+\hdashline % Dotted line
+\\[0.1ex] % Add space of 1ex between rows
+\emph{H3} \\ 
+   Log N firms X N industries           &                 &                 &                 & -0.942$^{**}$   &   \\   
+                                        &                 &                 &                 & (0.355)         &   \\   
+   Log N firms X entropy                &                 &                 &                 &                 & -13.961\\   
+                                        &                 &                 &                 &                 & (8.867)\\   
+   \midrule
+   \emph{Fixed-effects}\\
+   Industry                             & Yes             & Yes             & Yes             & Yes             & Yes\\  
+   Year                                 & Yes             & Yes             & Yes             & Yes             & Yes\\  
+   \midrule
+   \emph{Fit statistics}\\
+   R$^2$                                & 0.230           & 0.236           & 0.236           & 0.236           & 0.236\\  
+   Within R$^2$                         & 0.013           & 0.020           & 0.020           & 0.021           & 0.020\\  
+   Observations                         & 23,877          & 23,877          & 23,877          & 23,877          & 23,877\\  
+   \midrule \midrule
+\multicolumn{6}{p{16cm}}{\emph{Notes:} The dependent variable is the log 
+    standard deviation of the residuals from the first-stage human capital equation 
+    regressions adjusted for sampling error, multiplied by 1,000. Standard errors 
+    are adjusted for clustering at the township level. Models include dummy variables 
+    for year and industry. Interaction effects are centered. Clustered (Township) 
+    standard-errors in parentheses.}\\
+\multicolumn{6}{l}{\emph{*** p$<$0.001, ** p$<$0.01, * p$<$0.05}} \\ 
+\end{tabular}
+\par\endgroup

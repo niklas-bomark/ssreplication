@@ -1,0 +1,623 @@
+\documentclass{article}
+\usepackage{newtxtext}
+\usepackage{newtxmath}
+
+\usepackage{booktabs} % for better looking tables
+\usepackage{graphicx}
+\usepackage{caption} % for customizing captions
+\usepackage[table]{xcolor} % for coloring tables
+\usepackage{pdflscape} % for landscape orientation
+\usepackage{arydshln} % for dotted lines in tables	
+\usepackage{adjustbox} % For adjusting table position
+\usepackage{siunitx}
+\usepackage{amsmath}
+\usepackage{rotating}
+\usepackage{lscape}
+\usepackage{multirow}
+%\usepackage{geometry}
+\usepackage{hhline} % for bold lines
+\usepackage{appendix} % for appendix numbering
+
+
+
+\begin{document}
+	
+	
+\thispagestyle{empty} % Remove page number from this page
+\noindent
+APPENDIX A: \newline
+CORPORATE DEMOGRAPHY AND WAGE INEQUALITY: REVISITED\newline
+2024-05-22
+% Summary Statistics
+\clearpage % Start a new page
+\thispagestyle{empty} % Remove page number from this page
+
+
+%%% APPENDIX
+
+\appendix
+\setcounter{page}{-1}
+
+\setcounter{table}{0}
+\renewcommand{\thetable}{A\arabic{table}}
+
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{A\arabic{figure}}
+
+
+\listoftables
+\listoffigures
+\thispagestyle{empty} % Remove page number from this page
+
+%\clearpage % Start a new page
+
+
+%\thispagestyle{empty} % Remove page number from this page
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 1992 - 1998
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\clearpage % Start a new page
+
+%\thispagestyle{empty} % Remove page number from this page
+\input{table1a.tex} 
+
+
+
+% Correlation Matrix
+
+\begin{landscape}
+% Table 2a
+\clearpage % Start a new page
+
+\input{table2a.tex} % Include the first table
+\end{landscape}
+
+
+
+% Main tables: models
+
+\clearpage % Start a new page
+%\thispagestyle{empty} % Remove page number from this page
+
+\begin{table}[htbp]
+\centering
+\caption{Estimated Effects of Regional Corporate Demography on Gross Income Dispersion in an Industry-Township,  1992 to 1998}
+\resizebox{\linewidth}{!}{%
+   \input{table3.tex} % Assuming table_grosswage_extension_1998.tex contains your table
+   }
+    \captionsetup{justification=centering,  font=small} % Centering the caption
+    \label{appendix:yourlabel}
+\end{table}
+
+\clearpage % Start a new page
+%\thispagestyle{empty} % Remove page number from this page
+
+\begin{table}[htbp]
+
+    \centering
+        \caption{Estimated Effects of Regional Corporate Demography on Residual Income Dispersion in an Industry-Township,  1992 to 1998}
+    \resizebox{\linewidth}{!}{%
+        \input{table4.tex} % Assuming table_grosswage_extension_1998.tex contains your table
+    }
+     \captionsetup{justification=centering,  font=small} % Centering the caption
+
+    \label{tab:yourlabel}
+\end{table}
+
+
+\clearpage % Start a new page
+
+
+\begin{landscape}
+%\thispagestyle{empty} % Remove page number from this page
+\begin{table}[t] % Change the placement specifier from [htbp] to [t]
+\vspace*{-2cm} % Adjust the space between the top of the page and the table
+\centering
+\caption{Extended Models of Corporate Demography (Foreign and Non-profit Firms) on Gross Income Dispersion, 1992-1998}
+\resizebox{\linewidth}{!}{%
+    \input{table5.tex} % Assuming table4.tex contains your table
+}
+\captionsetup{justification=centering, font=small} % Centering the caption
+\label{tab:yourlabel}
+\end{table}
+\end{landscape}
+
+
+
+\clearpage % Start a new page
+
+\begin{landscape}
+%\thispagestyle{empty} % Remove page number from this page
+\begin{table}[t] % Change the placement specifier from [htbp] to [t]
+\vspace*{-2cm} % Adjust the space between the top of the page and the table
+\centering
+\caption{Extended Models of Corporate Demography (Foreign and Non-profit Firms) on Residual Income Dispersion, 1992-1998}
+\resizebox{\linewidth}{!}{%
+    \input{table6.tex} % Assuming table4.tex contains your table
+}
+\captionsetup{justification=centering, font=small} % Centering the caption
+\label{tab:yourlabel}
+\end{table}
+\end{landscape}
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 1992 - 2012
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Summary Statistics
+
+
+\clearpage % Start a new page
+%\thispagestyle{empty} % Remove page number from this page
+
+\input{table1b.tex} 
+
+
+
+% Correlation Matrix
+
+\begin{landscape}
+% Table 2a
+\clearpage % Start a new page
+%\thispagestyle{empty} % Remove page number from this page
+
+\input{table2b.tex} % Include the first table
+
+\end{landscape}
+
+
+
+% Main tables: models
+
+
+\clearpage % Start a new page
+%\thispagestyle{empty} % Remove page number from this page
+
+
+\begin{table}[htbp]
+    \centering
+        \caption{Estimated Effects of Regional Corporate Demography on Gross Income Dispersion in an Industry-Township,  1992 to 2012}
+    \resizebox{\linewidth}{!}{%
+        \input{table3b.tex} % Assuming table_grosswage_extension_1998.tex contains your table
+    }
+     \captionsetup{justification=centering,  font=small} % Centering the caption
+
+    \label{tab:yourlabel}
+\end{table}
+
+\clearpage % Start a new page
+%\thispagestyle{empty} % Remove page number from this page
+
+\begin{table}[htbp]
+
+    \centering
+        \caption{Estimated Effects of Regional Corporate Demography on Residual Income Dispersion in an Industry-Township,  1992 to 2012}
+    \resizebox{\linewidth}{!}{%
+        \input{table4b.tex} % Assuming table_grosswage_extension_1998.tex contains your table
+    }
+     \captionsetup{justification=centering,  font=small} % Centering the caption
+
+    \label{tab:yourlabel}
+\end{table}
+
+
+\clearpage % Start a new page
+
+\begin{landscape}
+%\thispagestyle{empty} % Remove page number from this page
+\begin{table}[t] % Change the placement specifier from [htbp] to [t]
+\vspace*{-2cm} % Adjust the space between the top of the page and the table
+\centering
+\caption{Extended Models of Corporate Demography (Foreign and Non-profit Firms) on Gross Income Dispersion, 1992-2012}
+\resizebox{\linewidth}{!}{%
+    \input{table5b.tex} % Assuming table4.tex contains your table
+}
+\captionsetup{justification=centering, font=small} % Centering the caption
+\label{tab:yourlabel}
+\end{table}
+\end{landscape}
+
+
+
+\clearpage % Start a new page
+
+\begin{landscape}
+%\thispagestyle{empty} % Remove page number from this page
+\begin{table}[t] % Change the placement specifier from [htbp] to [t]
+\vspace*{-2cm} % Adjust the space between the top of the page and the table
+\centering
+\caption{Extended Models of Corporate Demography (Foreign and Non-profit Firms) on Residual Income Dispersion, 1992-2012}
+\resizebox{\linewidth}{!}{%
+    \input{table6b.tex} % Assuming table4.tex contains your table
+}
+\captionsetup{justification=centering, font=small} % Centering the caption
+\label{tab:yourlabel}
+\end{table}
+\end{landscape}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 1992 - 1998 LLA
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+% Summary Statistics
+
+
+\clearpage % Start a new page
+
+%\thispagestyle{empty} % Remove page number from this page
+
+\input{table1c.tex} 
+
+
+
+% Correlation Matrix
+
+\begin{landscape}
+% Table 2a
+\clearpage % Start a new page
+%\thispagestyle{empty} % Remove page number from this page
+
+\input{table2c.tex} % Include the first table
+
+\end{landscape}
+
+
+
+
+
+% Main tables: models
+
+%% labor market areas (LMA)
+
+\clearpage % Start a new page
+
+%\thispagestyle{empty} % Remove page number from this page
+
+
+\begin{table}[htbp]
+    \centering
+        \caption{Estimated Effects of Regional Corporate Demography on Gross Income Dispersion in an Industry-Township,  1992 to 1998.  Local Labor Markets. }
+    \resizebox{\linewidth}{!}{%
+        \input{table3c.tex} % Assuming table_grosswage_extension_1998.tex contains your table
+    }
+     \captionsetup{justification=centering,  font=small} % Centering the caption
+
+    \label{tab:yourlabel}
+\end{table}
+
+\clearpage % Start a new page
+%\thispagestyle{empty} % Remove page number from this page
+
+\begin{table}[htbp]
+
+    \centering
+        \caption{Estimated Effects of Regional Corporate Demography on Residual Income Dispersion in an Industry-Township,  1992 to 1998.  Local Labor Markets. }
+    \resizebox{\linewidth}{!}{%
+        \input{table4c.tex} % Assuming table_grosswage_extension_1998.tex contains your table
+    }
+     \captionsetup{justification=centering,  font=small} % Centering the caption
+
+    \label{tab:yourlabel}
+\end{table}
+
+
+\clearpage % Start a new page
+
+\begin{landscape}
+%\thispagestyle{empty} % Remove page number from this page
+\begin{table}[t] % Change the placement specifier from [htbp] to [t]
+\vspace*{-2cm} % Adjust the space between the top of the page and the table
+\centering
+\caption{Extended Models of Corporate Demography (Foreign and Non-profit Firms) on Gross Income Dispersion, 1992-1998.  Local Labor Markets. }
+\resizebox{\linewidth}{!}{%
+    \input{table5c.tex} % Assuming table4.tex contains your table
+}
+\captionsetup{justification=centering, font=small} % Centering the caption
+\label{tab:yourlabel}
+\end{table}
+\end{landscape}
+
+
+
+\clearpage % Start a new page
+
+\begin{landscape}
+%\thispagestyle{empty} % Remove page number from this page
+\begin{table}[t] % Change the placement specifier from [htbp] to [t]
+\vspace*{-2cm} % Adjust the space between the top of the page and the table
+\centering
+\caption{Extended Models of Corporate Demography (Foreign and Non-profit Firms) on Residual Income Dispersion, 1992-1998.  Local Labor Markets. }
+\resizebox{\linewidth}{!}{%
+    \input{table6c.tex} % Assuming table4.tex contains your table
+}
+\captionsetup{justification=centering, font=small} % Centering the caption
+\label{tab:yourlabel}
+\end{table}
+\end{landscape}
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 1992 - 2012 LLA
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+% Summary Statistics
+
+
+\clearpage % Start a new page
+
+%\thispagestyle{empty} % Remove page number from this page
+
+\input{table1d.tex} 
+
+
+
+% Correlation Matrix
+
+\begin{landscape}
+% Table 2a
+\clearpage % Start a new page
+%\thispagestyle{empty} % Remove page number from this page
+
+\input{table2d.tex} % Include the first table
+
+\end{landscape}
+
+
+
+
+
+% Main tables: models
+
+
+\clearpage % Start a new page
+
+%\thispagestyle{empty} % Remove page number from this page
+
+
+\begin{table}[htbp]
+    \centering
+        \caption{Estimated Effects of Regional Corporate Demography on Gross Income Dispersion in an Industry-Township,  1992 to 2012.  Local Labor Markets. }
+    \resizebox{\linewidth}{!}{%
+        \input{table3d.tex} % Assuming table_grosswage_extension_1998.tex contains your table
+    }
+     \captionsetup{justification=centering,  font=small} % Centering the caption
+
+    \label{tab:yourlabel}
+\end{table}
+
+\clearpage % Start a new page
+%\thispagestyle{empty} % Remove page number from this page
+
+\begin{table}[htbp]
+
+    \centering
+        \caption{Estimated Effects of Regional Corporate Demography on Residual Income Dispersion in an Industry-Township,  1992 to 2012.  Local Labor Markets. }
+    \resizebox{\linewidth}{!}{%
+        \input{table4d.tex} % Assuming table_grosswage_extension_1998.tex contains your table
+    }
+     \captionsetup{justification=centering,  font=small} % Centering the caption
+
+    \label{tab:yourlabel}
+\end{table}
+
+
+\clearpage % Start a new page
+
+\begin{landscape}
+%\thispagestyle{empty} % Remove page number from this page
+\begin{table}[t] % Change the placement specifier from [htbp] to [t]
+\vspace*{-2cm} % Adjust the space between the top of the page and the table
+\centering
+\caption{Extended Models of Corporate Demography (Foreign and Non-profit Firms) on Gross Income Dispersion, 1992-2012.  Local Labor Markets. }
+\resizebox{\linewidth}{!}{%
+    \input{table5d.tex} % Assuming table4.tex contains your table
+}
+\captionsetup{justification=centering, font=small} % Centering the caption
+\label{tab:yourlabel}
+\end{table}
+\end{landscape}
+
+
+
+\clearpage % Start a new page
+
+\begin{landscape}
+%\thispagestyle{empty} % Remove page number from this page
+\begin{table}[t] % Change the placement specifier from [htbp] to [t]
+\vspace*{-2cm} % Adjust the space between the top of the page and the table
+\centering
+\caption{Extended Models of Corporate Demography (Foreign and Non-profit Firms) on Residual Income Dispersion, 1992-2012.  Local Labor Markets. }
+\resizebox{\linewidth}{!}{%
+    \input{table6d.tex} % Assuming table4.tex contains your table
+}
+\captionsetup{justification=centering, font=small} % Centering the caption
+\label{tab:yourlabel}
+\end{table}
+\end{landscape}
+
+
+
+\clearpage % Start a new page
+
+%\thispagestyle{empty} % Remove page number from this page
+
+
+\begin{table}[htbp]
+    \centering
+        \caption{Percent individuals employed by large firms.  Estimated Effects of Regional Corporate Demography on Gross Income Dispersion in an Industry- Township, 1992 to 1998.}
+    \resizebox{\linewidth}{!}{%
+        \input{table3e.tex} % Assuming table_grosswage_extension_1998.tex contains your table
+    }
+     \captionsetup{justification=centering,  font=small} % Centering the caption
+
+    \label{tab:yourlabel}
+\end{table}
+
+\clearpage % Start a new page
+%\thispagestyle{empty} % Remove page number from this page
+
+\begin{table}[htbp]
+
+    \centering
+        \caption{Percent individuals employed by large firms. Estimated Effects of Regional Corporate Demography on Residual Income Dispersion in an Industry- Township, 1992 to 1998.}
+    \resizebox{\linewidth}{!}{%
+        \input{table4e.tex} % Assuming table_grosswage_extension_1998.tex contains your table
+    }
+     \captionsetup{justification=centering,  font=small} % Centering the caption
+
+    \label{tab:yourlabel}
+\end{table}
+
+
+
+
+\clearpage % Start a new page
+%\thispagestyle{empty} % Remove page number from this page
+
+\begin{landscape}
+\begin{figure}[htbp]
+  \centering
+  %\includegraphics[width=1\textwidth]{1_output_errcorr_singleind.pdf}
+   \scalebox{0.55}{\includegraphics{combined_plot.png}}
+    \caption{Comparison of Summary Statistics from Sweden and Denmark, 1992 to 1998. }
+  \label{fig:gross_income}
+  
+\end{figure}
+\end{landscape}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Multiverse
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\clearpage % Start a new page
+%\thispagestyle{empty} % Remove page number from this page
+
+\begin{figure}[htbp]
+  \centering
+  %\includegraphics[width=1\textwidth]{1_output_errcorr_singleind.pdf}
+   \scalebox{0.85}{\includegraphics{1_output_errcorr_singleind.pdf}}
+    \caption{Specification curves from the multiverse analysis. Estimated Effects of Regional Corporate Demography on Residual Income Dispersion in an Industry-Township, 1992 to 1998.  Single industry employer.}
+  \label{fig:gross_income}
+  
+\end{figure}
+
+
+\clearpage % Start a new page
+%\thispagestyle{empty} % Remove page number from this page
+
+
+\begin{figure}[htbp]
+  \centering
+    %\includegraphics[width=1\textwidth]{2_output_errcorr_sdemployer.pdf}
+     \scalebox{0.85}{\includegraphics{2_output_errcorr_sdemployer.pdf}}
+  \caption{Specification curves from the multiverse analysis. Estimated Effects of Regional Corporate Demography on Residual Income Dispersion in an Industry-Township, 1992 to 1998.  Standard Deviation of Employer Sizes}
+  \label{fig:gross_income}
+  
+\end{figure}
+
+\clearpage % Start a new page
+%\thispagestyle{empty} % Remove page number from this page
+
+
+\begin{figure}[htbp]
+  \centering
+    %\includegraphics[width=1\textwidth]{3_output_errcorr_log_indfirms.pdf}
+     \scalebox{0.85}{\includegraphics{3_output_errcorr_log_indfirms.pdf}}
+  \caption{Specification curves from the multiverse analysis. Estimated Effects of Regional Corporate Demography on Residual Income Dispersion in an Industry-Township, 1992 to 1998.  Log N Industry Firms in Township}
+  \label{fig:gross_income}
+  
+\end{figure}
+
+
+\clearpage % Start a new page
+%\thispagestyle{empty} % Remove page number from this page
+
+
+
+
+\begin{figure}[htbp]
+  \centering
+    %\includegraphics[width=1\textwidth]{4_output_errcorr_nr_ind_in_reg.pdf}
+     \scalebox{0.85}{\includegraphics{4_output_errcorr_nr_ind_in_reg.pdf}}
+  \caption{Specification curves from the multiverse analysis. Estimated Effects of Regional Corporate Demography on Residual Income Dispersion in an Industry-Township, 1992 to 1998.  N Industries in Township}
+  \label{fig:gross_income}
+  
+\end{figure}
+
+
+\clearpage % Start a new page
+%\thispagestyle{empty} % Remove page number from this page
+
+\begin{figure}[htbp]
+  \centering
+    %\includegraphics[width=1\textwidth]{5_output_errcorr_ent.pdf}
+     \scalebox{0.85}{\includegraphics{5_output_errcorr_ent.pdf}}
+  \caption{Specification curves from the multiverse analysis. Estimated Effects of Regional Corporate Demography on Residual Income Dispersion in an Industry-Township, 1992 to 1998.  Entropy of Industry Shares}
+  \label{fig:gross_income}
+  
+\end{figure}
+
+
+
+\clearpage % Start a new page
+%\thispagestyle{empty} % Remove page number from this page
+
+\begin{figure}[htbp]
+  \centering
+    %\includegraphics[width=1\textwidth]{6_output_errcorr_indfirmXindreg.pdf}
+     \scalebox{0.85}{\includegraphics{6_output_errcorr_indfirmXindreg.pdf}}
+  \caption{Specification curves from the multiverse analysis. Estimated Effects of Regional Corporate Demography on Residual Income Dispersion in an Industry-Township, 1992 to 1998.  Log N Firms X N Industries}
+  \label{fig:gross_income}
+  
+\end{figure}
+
+
+\clearpage % Start a new page
+%\thispagestyle{empty} % Remove page number from this page
+
+\begin{figure}[htbp]
+  \centering
+   % \includegraphics[width=1\textwidth]{7_output_errcorr_indfirmXent.pdf}
+     \scalebox{0.85}{\includegraphics{7_output_errcorr_indfirmXent.pdf}}
+  \caption{Specification curves from the multiverse analysis. Estimated Effects of Regional Corporate Demography on Residual Income Dispersion in an Industry-Township, 1992 to 1998.  Log N Firms X Entropy}
+  \label{fig:gross_income}
+  
+\end{figure}
+
+
+%%  \scalebox{0.9}{\includegraphics{7_output_errcorr_indfirmXent.pdf}}
+
+
+
+
+
+\end{document}

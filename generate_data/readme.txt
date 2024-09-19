@@ -10,7 +10,7 @@ Create the dataset
 
 
 When all the datafiles have been created, you can combine
-them and then create the variables used in the study. 
+them and create the variables used in the study. 
 
 2) Run 1_combine_files_v3
 
